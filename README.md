@@ -26,7 +26,7 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Run a MQTT Server on the Raspberry pi.
 
 
-#### Verkþættir sem þarf að uppfylla:
+#### Verkþættir sem þarf að uppfylla:📌
 >This is just the tasks we need to do that the teacher has put up.
 
 
@@ -44,7 +44,7 @@ We are making a robot that lights in the box light up when the box is open and t
 
 ---
 
-## Námsmat og skil
+## Námsmat og skil📥
 
 Einkunn byggir á útfærslum á eftirfarandi matsþáttum byggt á verkþáttum og vinnuframlagi sem á sér stað í kennslustund:
 
