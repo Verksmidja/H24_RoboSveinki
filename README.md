@@ -16,10 +16,13 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Make a NodeRED Dashboard
 - [x] 3D print Gift
 - [x] Get the Servoes to work and move on the robot
-- [ ] Get the lights to turn on when the sonar sensor detects distance.
-- [ ] Get sound to play on the robot
+- [x] Get the lights to turn on when the sonar sensor detects distance.
+- [x] Get sound to play on the robot
 - [ ] Get the LED lights to turn-on on the robot.
-- [ ] Get the codes to run Async to eachother.
+- [x] Get the codes to run Async to each other on the gift.
+- [ ] Get the mouth to move async with the music
+- [ ] get the gift code to start the robot.
+- [ ] Run a MQTT Server on the Raspberry pi.
 
 
 #### Verkþættir sem þarf að uppfylla:
