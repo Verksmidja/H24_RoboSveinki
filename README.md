@@ -23,6 +23,11 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Get the mouth to move async with the music.
 - [ ] Get the gift code to start the robot.
 - [ ] Run an MQTT Server on the Raspberry Pi.
+- [ ] Get the Raspberry Pi and My computer to start sending info and working with the NodeRED Dashboard.
+- [ ] Dress the figure up.
+- [ ] Find a bell to 3D print.
+- [ ] Print The bell.
+- [ ] Add LED Light Strip to the bell and make the do the same as on the Gift LED.
 
 ---
 
