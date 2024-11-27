@@ -40,3 +40,23 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Samsettning á IoT búnaði (innfelld kerfi, vélbúnaður, íhlutir, brauðbretti, vírar osfrv.).
 - [ ] Smíði IoT frumgerðar á fígúru og leikmun (2D laserskurður, 3D prentun, veróborðsmíði, lóðun, samsettning, klæðnaður og útlit).
 - [ ] Skýrsla á Github (readme.md).
+
+---
+
+## Námsmat og skil
+
+Einkunn byggir á útfærslum á eftirfarandi matsþáttum byggt á verkþáttum og vinnuframlagi sem á sér stað í kennslustund:
+
+1. Fígúra: **(25%)**
+   1. Inntak (telemetry) og stýringar (actuator) með ESP32, async og MQTT (kóði). 
+   1. Samsettning, útlit og smíði.
+1. Leikmunur: **(25%)**
+   1. Inntak (telemetry) og stýringar (actuator) með ESP32, asynco og MQTT (kóði). 
+   1. Samsettning, útlit og smíði.
+1. Mælaborð (NodeRed) **(25%)**
+   1. Notendastýringar.
+   1. Birting gagna.
+   1. Hefja senu (handvirkt og með vefþjónustu) 
+1. Sena **(25%)**
+   1. Samhæfing og útfærsla á senu með MQTT.
+   1. Miðlari (uppsetning, stillingar).  
