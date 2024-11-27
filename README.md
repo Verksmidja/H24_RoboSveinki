@@ -39,4 +39,4 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Vefþjónusta.
 - [ ] Samsettning á IoT búnaði (innfelld kerfi, vélbúnaður, íhlutir, brauðbretti, vírar osfrv.).
 - [ ] Smíði IoT frumgerðar á fígúru og leikmun (2D laserskurður, 3D prentun, veróborðsmíði, lóðun, samsettning, klæðnaður og útlit).
-- [x] Skýrsla á Github (readme.md).
+- [ ] Skýrsla á Github (readme.md).
