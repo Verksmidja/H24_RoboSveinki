@@ -19,6 +19,7 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Get the lights to turn on when the sonar sensor detects distance.
 - [ ] Get sound to play on the robot
 - [ ] Get the LED lights to turn-on on the robot.
+- [ ] Láta alla kóðana virka á sama tíma.
 
   >This is just the tasks we need to do that the teacher has put up.
 #### Verkþættir sem þarf að uppfylla:
