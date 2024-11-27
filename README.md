@@ -1,11 +1,11 @@
 # RoboSveinki🎅
 VESM3 Lokaverkefni
 
-We are making a robot that lights in the box light up when the box is open and the robots start dancing and singing Christmas music.
+We are making a robot that lights in the box light up when the box is open and the robots start dancing, singing, and ringing the bell Christmas music.
 
 
 
-### This is our ToDo list we need to do and what we have planned.   (you can always add more to the [To-Do] task if you have something)
+### This is our ToDo list we need to do and what we have planned.   (You can always add more to the [To-Do] task if you have something)
 ---
  >If your done with a project just edit and just add a [x] to it.
 
@@ -21,7 +21,7 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Get the LED lights to turn-on on the robot.
 - [x] Get the codes to run Async to each other on the gift.
 - [ ] Get the mouth to move async with the music
-- [ ] get the gift code to start the robot.
+- [ ] Get the gift code to start the robot.
 - [ ] Run a MQTT Server on the Raspberry pi.
 
 ---
