@@ -28,6 +28,6 @@ This is where you can store Github links for the project.
   - Source:(https://techexplorations.com/guides/esp32/node-red-esp32-project/2-install-node-red-on-the-raspberry-pi/)
 
 ### Notes:
-- External sources are credited where applicable.
+- **NOTE:**This is not all the Links that the project needs everything is on the **Project Info** Source.
 - For any further details about a specific file, please refer to its individual comments or documentation.
 
