@@ -29,9 +29,9 @@ We are making a robot that lights in the box light up when the box is open and t
 >This is just the tasks we need to do that the teacher has put up.
 
 
-- [ ] Unnið er með innfelld kerfi; ESP32 með micropython.
+- [x] Unnið er með innfelld kerfi; ESP32 með micropython.
 - [ ] Unnið með miðlara á Raspberry Pi (MQTT Broker og NodeRED).
-- [ ] Telemetry. Unnið er með inntak frá skynjurum.
+- [x] Telemetry. Unnið er með inntak frá skynjurum.
 - [ ] Actuators: Unnið er með stýringar.
 - [ ] IoT Protocol: MQTT. 
 - [ ] JSON fyrir gögn.
@@ -39,4 +39,4 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Vefþjónusta.
 - [ ] Samsettning á IoT búnaði (innfelld kerfi, vélbúnaður, íhlutir, brauðbretti, vírar osfrv.).
 - [ ] Smíði IoT frumgerðar á fígúru og leikmun (2D laserskurður, 3D prentun, veróborðsmíði, lóðun, samsettning, klæðnaður og útlit).
-- [ ] Skýrsla á Github (readme.md).
+- [x] Skýrsla á Github (readme.md).
