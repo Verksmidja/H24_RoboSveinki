@@ -9,7 +9,7 @@ We are making a robot that lights in the box light up when the box is open and t
 ---
  >If your done with a project just edit and just add a [x] to it.
 
-## TO.DO TASKS
+## TO.DO TASKS📋
 - [x] Get a idea
 - [x] Get the Raspberry pie connected
 - [x] NEOPIXEL Lights to light up.
