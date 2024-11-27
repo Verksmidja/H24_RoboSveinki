@@ -2,7 +2,7 @@
 
 This is where you can store Github links for the project.
 
-## Frontend
+## PROJECT
 
 - **Project Info (VES3)**
     -Purpose: This is where you can see the project info
