@@ -6,7 +6,7 @@ This is where you can store Github links for the project.
 
 - **Project Info (VES3)**
     -Purpose: This is where you can see the project info
-    - Source: (
+    - Source: (https://github.com/VESM3/IOT/blob/main/Verkefni/V5.md)
 
 - **EPS32-S3 Pin**
   - Purpose: This is where you can see the pin connections for the esp32-s3.
