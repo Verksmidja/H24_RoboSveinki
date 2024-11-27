@@ -19,10 +19,12 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Get the lights to turn on when the sonar sensor detects distance.
 - [ ] Get sound to play on the robot
 - [ ] Get the LED lights to turn-on on the robot.
-- [ ] Láta alla kóðana virka á sama tíma.
+- [ ] Get the codes to run Async to eachother.
 
-  >This is just the tasks we need to do that the teacher has put up.
+
 #### Verkþættir sem þarf að uppfylla:
+>This is just the tasks we need to do that the teacher has put up.
+
 
 - [ ] Unnið er með innfelld kerfi; ESP32 með micropython.
 - [ ] Unnið með miðlara á Raspberry Pi (MQTT Broker og NodeRED).
