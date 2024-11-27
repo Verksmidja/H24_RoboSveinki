@@ -25,8 +25,9 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] get the gift code to start the robot.
 - [ ] Run a MQTT Server on the Raspberry pi.
 
+---
 
-#### Verkþættir sem þarf að uppfylla:📌
+## Verkþættir sem þarf að uppfylla:📌
 >This is just the tasks we need to do that the teacher has put up.
 
 
