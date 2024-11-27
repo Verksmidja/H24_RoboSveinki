@@ -5,8 +5,7 @@ We are making a robot that lights in the box light up when the box is open and t
 
 
 
-### This is our ToDo list we need to do and what we have planned 
- (you can always add more to the to do task if you have something)
+### This is our ToDo list we need to do and what we have planned.   (you can always add more to the to do task if you have something)
 ---
  >If your done with a project just edit and just add a [x] to it.
 
