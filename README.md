@@ -1,33 +1,33 @@
 # RoboSveinki🎅
-VESM3 Lokaverkefni
+VESM3 Lokaverkefni.
 
 We are making a robot that lights in the box light up when the box is open and the robots start dancing, singing, and ringing the bell Christmas music.
 
 
 
-### This is our ToDo list we need to do and what we have planned.   (You can always add more to the [To-Do] task if you have something)
+### This is our ToDo list we need to do and what we have planned.   (You can always add more to the [To-Do] task if you have something).
 ---
- >If your done with a project just edit and just add a [x] to it.
+ >If you're done with a project just edit and just add a [x] to it.
 
 ## TO.DO TASKS📋
-- [x] Get a idea
-- [x] Get the Raspberry pie connected
+- [x] Get an idea
+- [x] Get the Raspberry Pi connected.
 - [x] NEOPIXEL Lights to light up.
-- [ ] Make a NodeRED Dashboard
-- [x] 3D print Gift
-- [x] Get the Servoes to work and move on the robot
+- [ ] Make a NodeRED Dashboard.
+- [x] 3D print Gift.
+- [x] Get the Servoes to work and move on the robot.
 - [x] Get the lights to turn on when the sonar sensor detects distance.
-- [x] Get sound to play on the robot
-- [ ] Get the LED lights to turn-on on the robot.
+- [x] Get sound to play on the robot.
+- [ ] Get the LED lights to turn-on, on the robot.
 - [x] Get the codes to run Async to each other on the gift.
-- [ ] Get the mouth to move async with the music
+- [ ] Get the mouth to move async with the music.
 - [ ] Get the gift code to start the robot.
-- [ ] Run a MQTT Server on the Raspberry pi.
+- [ ] Run an MQTT Server on the Raspberry Pi.
 
 ---
 
 ## Verkþættir sem þarf að uppfylla:📌
->This is just the tasks we need to do that the teacher has put up.
+> These are just the tasks we need to do that the teacher has put up.
 
 
 - [x] Unnið er með innfelld kerfi; ESP32 með micropython.
@@ -57,7 +57,7 @@ Einkunn byggir á útfærslum á eftirfarandi matsþáttum byggt á verkþáttum
 1. Mælaborð (NodeRed) **(25%)**
    1. Notendastýringar.
    1. Birting gagna.
-   1. Hefja senu (handvirkt og með vefþjónustu) 
+   1. Hefja senu (handvirkt og með vefþjónustu).
 1. Sena **(25%)**
    1. Samhæfing og útfærsla á senu með MQTT.
    1. Miðlari (uppsetning, stillingar).  
