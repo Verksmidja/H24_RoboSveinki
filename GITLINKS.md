@@ -11,6 +11,10 @@ This is where you can store Github links for the project.
 - **EPS32-S3 Pin**
   - Purpose: This is where you can see the pin connections for the esp32-s3.
   - Source:(https://github.com/VESM3/IOT/wiki/ESP32).
+
+- **Node-RED Dashboard setup**
+  -Purpose: This link is info about setting up a dashboard from verk4.
+  - Source: (https://github.com/VESM3/IOT/blob/main/Verkefni/V4.md#1-nodered-uppsetning-og-umhverfi%C3%B0-25)
  
 ## Raspberry pi Links🍇
 - **SET UP manual**
