@@ -22,7 +22,7 @@ We are making a robot that lights in the box light up when the box is open and t
 - [x] Get the codes to run Async to each other on the gift.
 - [ ] Get the mouth to move async with the music.
 - [ ] Get the gift code to start the robot.
-- [ ] Run an MQTT Server on the Raspberry Pi.
+- [x] Run an MQTT Server on the Raspberry Pi.
 - [ ] Get the Raspberry Pi and My computer to start sending info and working with the NodeRED Dashboard.
 - [ ] Dress the figure up.
 - [x] Find a bell to 3D print.
@@ -40,7 +40,7 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Unnið með miðlara á Raspberry Pi (MQTT Broker og NodeRED).
 - [x] Telemetry. Unnið er með inntak frá skynjurum.
 - [ ] Actuators: Unnið er með stýringar.
-- [ ] IoT Protocol: MQTT. 
+- [x] IoT Protocol: MQTT. 
 - [ ] JSON fyrir gögn.
 - [ ] NodeRed mælaborð fyrir notendastýringu, stillingar og birtingu gagna. 
 - [ ] Vefþjónusta.
