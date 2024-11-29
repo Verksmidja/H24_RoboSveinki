@@ -26,6 +26,13 @@ This is where you can store Github links for the project.
 - **NodeRED SETUP**
   - Purpose: This will help you with the NodeRED on the Raspberry Pi computer.
   - Source:(https://techexplorations.com/guides/esp32/node-red-esp32-project/2-install-node-red-on-the-raspberry-pi/)
+ 
+## 3D Model Prints
+- **Bell Model**
+  -Info: This is the Link to the 3D model of the bell we are using
+  -Source: (https://cults3d.com/en/3d-model/home/christmas-hand-bell-parts-vol-3/comments)
+  
+
 
 ### Notes:
 - **NOTE!** This is not all the Links that the project needs everything is on the **Project Info** Source.
