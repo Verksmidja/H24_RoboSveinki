@@ -25,9 +25,10 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Run an MQTT Server on the Raspberry Pi.
 - [ ] Get the Raspberry Pi and My computer to start sending info and working with the NodeRED Dashboard.
 - [ ] Dress the figure up.
-- [ ] Find a bell to 3D print.
+- [x] Find a bell to 3D print.
 - [ ] Print The bell.
 - [ ] Add LED Light Strip to the bell and make the do the same as on the Gift LED.
+- [ ] Go buy the stuff for it.
 
 ---
 
