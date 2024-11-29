@@ -28,7 +28,8 @@ We are making a robot that lights in the box light up when the box is open and t
 - [x] Find a bell to 3D print.
 - [ ] Print The bell.
 - [ ] Add LED Light Strip to the bell and make the do the same as on the Gift LED.
-- [ ] Go buy the stuff for it.
+- [x] Go buy the stuff for it.
+- [ ] Get a API to work with the time.
 
 ---
 
