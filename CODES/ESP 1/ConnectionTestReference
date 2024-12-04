@@ -1,0 +1,91 @@
+import network
+import time
+import json
+from umqtt.simple import MQTTClient
+import ubinascii, machine 
+
+
+WIFI_SSID = 'TskoliVESM'
+WIFI_PASSWORD = 'Fallegurhestur'
+
+MQTT_BROKER = '10.201.48.99'
+MQTT_PORT = 1883
+MQTT_TOPIC = 'esp32/sensor'
+MQTT_CLIENT_ID = f'esp32-receiver-{ubinascii.hexlify(machine.unique_id()).decode("utf-8")}'
+
+def connect_wifi():
+    wlan = network.WLAN(network.STA_IF)
+    if not wlan.isconnected():
+        print('Connecting to Wi-Fi...')
+        wlan.active(True)
+        wlan.connect(WIFI_SSID, WIFI_PASSWORD)
+        while not wlan.isconnected():
+            print('.', end='')
+            time.sleep(0.5)
+    print('\nWi-Fi connected:', wlan.ifconfig())
+
+def mqtt_callback(topic, msg):
+    try:
+        message_str = msg.decode('utf-8')
+        print(f"Received raw message: {message_str}")
+        payload = json.loads(message_str)
+        state = payload.get('state', False)
+        print(f"Json delivered, {state}")
+    except (ValueError, UnicodeDecodeError) as e:
+        print("Received invalid JSON")
+        print(f"Error: {e}")
+        print(f"Raw message: {msg}")
+
+def mqtt_connect(retries=5, delay=2):
+    for attempt in range(retries):
+        try:
+            client = MQTTClient(MQTT_CLIENT_ID, MQTT_BROKER, port=MQTT_PORT)
+            client.set_callback(mqtt_callback)
+            client.connect()
+            client.subscribe(MQTT_TOPIC)
+            print('Connected to MQTT Broker and subscribed to topic:', MQTT_TOPIC)
+            return client
+        except Exception as e:
+            print(f'Connection attempt {attempt + 1} failed:', e)
+            time.sleep(delay)
+    print('Failed to connect to MQTT Broker after multiple attempts.')
+    return None
+
+def reconnect(client):
+    print("Attempting to reconnect to MQTT Broker...")
+    client = mqtt_connect()
+    if client:
+        print("Reconnected to MQTT Broker.")
+    else:
+        print("Failed to reconnect to MQTT Broker.")
+    return client
+
+def main():
+    connect_wifi()
+
+    mqtt_client = mqtt_connect()
+    if not mqtt_client:
+        print('Exiting due to MQTT connection failure.')
+        return
+
+    try:
+        while True:
+            try:
+                mqtt_client.wait_msg()
+            except OSError as e:
+                print(f"Connection lost: {e}")
+                mqtt_client = reconnect(mqtt_client)
+                if not mqtt_client:
+                    print("Reconnection failed. Retrying in 5 seconds...")
+                    time.sleep(5)
+    except KeyboardInterrupt:
+        print("\nProgram stopped by user.")
+    finally:
+        try:
+            mqtt_client.disconnect()
+            print("Disconnected from MQTT Broker.")
+        except:
+            pass
+
+if __name__ == '__main__':
+    main()
