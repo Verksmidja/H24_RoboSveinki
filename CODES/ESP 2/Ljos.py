@@ -10,6 +10,12 @@ PIN_2 = 6
 np1 = neopixel.NeoPixel(machine.Pin(PIN_1), NUM_PIXELS_1)
 np2 = neopixel.NeoPixel(machine.Pin(PIN_2), NUM_PIXELS_2)
 
+led1 = [0,0,0]
+led2 = [0,0,0]
+
+def get_leds():
+    return led1, led2
+
 def clear_strip(np):
     for i in range(len(np)):
         np[i] = (0, 0, 0)
@@ -21,10 +27,20 @@ async def red_green_switch(np):
         while True:
             if state:
                 for i in range(len(np)):
-                    np[i] = (255, 0, 0) if i % 2 == 0 else (0, 255, 0)
+                    if i % 2 == 0:
+                        led2 = [255, 0, 0]
+                        np[i] = (255, 0, 0)
+                    else:
+                        led1 = [0, 255, 0]
+                        np[i] = (0, 255, 0)
             else:
                 for i in range(len(np)):
-                    np[i] = (0, 255, 0) if i % 2 == 0 else (255, 0, 0)
+                    if i % 2 == 0 :
+                        led2 = [0, 255, 0]
+                        np[i] = (0, 255, 0)
+                    else:
+                        led1 = [255, 0, 0]
+                        np[i] = (255, 0, 0)
             np.write()
             state = not state
             await asyncio.sleep(0.5)
@@ -42,4 +58,3 @@ async def ljos():
         task2.cancel()
         await asyncio.gather(task1, task2, return_exceptions=True)
         raise
-
