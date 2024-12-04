@@ -29,8 +29,8 @@ We are making a robot that lights in the box light up when the box is open and t
 - [ ] Print The bell.
 - [ ] Add LED Light Strip to the bell and make the do the same as on the Gift LED.
 - [x] Go buy the stuff for it.
- #### Get a API to work with the time.
-Task completed 14/20 (for now)
+- [ ] Get a API to work with the time.
+### Task completed 14/20 (for now)
 ---
 
 ## Verkþættir sem þarf að uppfylla:📌
