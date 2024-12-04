@@ -18,12 +18,12 @@ We are making a robot that lights in the box light up when the box is open and t
 - [x] Get the Servoes to work and move on the robot.
 - [x] Get the lights to turn on when the sonar sensor detects distance.
 - [x] Get sound to play on the robot.
-- [ ] Get the LED lights to turn-on, on the robot.
+- [x] Get the LED lights to turn-on, on the robot.
 - [x] Get the codes to run Async to each other on the gift.
-- [ ] Get the mouth to move async with the music.
+- [x] Get the mouth to move async with the music.
 - [ ] Get the gift code to start the robot.
 - [x] Run an MQTT Server on the Raspberry Pi.
-- [ ] Get the Raspberry Pi and My computer to start sending info and working with the NodeRED Dashboard.
+- [x] Get the Raspberry Pi and My computer to start sending info and working with the NodeRED Dashboard.(still needs some work)
 - [ ] Dress the figure up.
 - [x] Find a bell to 3D print.
 - [ ] Print The bell.
@@ -38,15 +38,15 @@ We are making a robot that lights in the box light up when the box is open and t
 
 
 - [x] Unnið er með innfelld kerfi; ESP32 með micropython.
-- [ ] Unnið með miðlara á Raspberry Pi (MQTT Broker og NodeRED).
+- [x] Unnið með miðlara á Raspberry Pi (MQTT Broker og NodeRED).
 - [x] Telemetry. Unnið er með inntak frá skynjurum.
 - [ ] Actuators: Unnið er með stýringar.
 - [x] IoT Protocol: MQTT. 
-- [ ] JSON fyrir gögn.
+- [x] JSON fyrir gögn.
 - [ ] NodeRed mælaborð fyrir notendastýringu, stillingar og birtingu gagna. 
 - [ ] Vefþjónusta.
-- [ ] Samsettning á IoT búnaði (innfelld kerfi, vélbúnaður, íhlutir, brauðbretti, vírar osfrv.).
-- [ ] Smíði IoT frumgerðar á fígúru og leikmun (2D laserskurður, 3D prentun, veróborðsmíði, lóðun, samsettning, klæðnaður og útlit).
+- [x] Samsettning á IoT búnaði (innfelld kerfi, vélbúnaður, íhlutir, brauðbretti, vírar osfrv.).
+- [x] Smíði IoT frumgerðar á fígúru og leikmun (2D laserskurður, 3D prentun, veróborðsmíði, lóðun, samsettning, klæðnaður og útlit).
 - [ ] Skýrsla á Github (readme.md).
 
 ---
