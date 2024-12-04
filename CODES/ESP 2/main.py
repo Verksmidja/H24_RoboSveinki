@@ -3,10 +3,9 @@ import time
 import uasyncio as asyncio
 import json
 from umqtt.simple import MQTTClient
-import ubinascii, machine 
+import ubinascii, machine
 from Ljos import ljos, get_leds
 from Skynjari import sensor_loop
-
 
 WIFI_SSID = 'TskoliVESM'
 WIFI_PASSWORD = 'Fallegurhestur'
@@ -29,20 +28,46 @@ def connect_wifi():
             time.sleep(0.5)
     print('\nWi-Fi connected:', wlan.ifconfig())
 
-def mqtt_connect(retries=5, delay=2):
-    for attempt in range(retries):
-        try:
-            client = MQTTClient(MQTT_CLIENT_ID, MQTT_BROKER, port=MQTT_PORT)
-            client.connect()
-            print('Connected to MQTT Broker:', MQTT_BROKER)
-            return client
-        except Exception as e:
-            print(f'Connection attempt {attempt + 1} failed:', e)
-            time.sleep(delay)
-    print('Failed to connect to MQTT Broker after multiple attempts.')
-    return None
+class MQTTClientManager:
+    def __init__(self, client_id, broker, port, topic, reconnect_delay=5):
+        self.client_id = client_id
+        self.broker = broker
+        self.port = port
+        self.topic = topic
+        self.reconnect_delay = reconnect_delay
+        self.client = None
+        self.connected = False
 
-async def control_and_publish(queue, mqtt_client, ljos_task):
+    def connect(self):
+        try:
+            self.client = MQTTClient(self.client_id, self.broker, port=self.port)
+            self.client.connect()
+            self.connected = True
+            print('Connected to MQTT Broker:', self.broker)
+        except Exception as e:
+            print('Failed to connect to MQTT Broker:', e)
+            self.connected = False
+            self.client = None
+
+    async def ensure_connection(self):
+        while True:
+            if not self.connected:
+                print('Attempting to reconnect to MQTT Broker...')
+                self.connect()
+                if not self.connected:
+                    print(f'Reconnection failed. Retrying in {self.reconnect_delay} seconds...')
+                    await asyncio.sleep(self.reconnect_delay)
+                else:
+                    print('Reconnected to MQTT Broker.')
+            await asyncio.sleep(self.reconnect_delay)
+
+    def publish(self, topic, message):
+        if self.connected and self.client:
+            self.client.publish(topic, message)
+        else:
+            raise ConnectionError("MQTT client is not connected.")
+
+async def control_and_publish(queue, mqtt_manager, ljos_task):
     while True:
         if queue:
             distance, state = queue.pop(0)
@@ -60,50 +85,52 @@ async def control_and_publish(queue, mqtt_client, ljos_task):
                     pass
                 ljos_task[0] = None
 
-            payload = json.dumps({"state": state}).encode('utf-8') 
+            payload = json.dumps({"state": state}).encode('utf-8')
             try:
-                mqtt_client.publish(MQTT_TOPIC, payload)
-                print("Published JSON:", payload.decode('utf-8')) 
+                mqtt_manager.publish(MQTT_TOPIC, payload)
+                print("Published JSON:", payload.decode('utf-8'))
+            except ConnectionError as ce:
+                print('Failed to publish MQTT message:', ce)
+                print('Message will be requeued and retrying...')
+                queue.insert(0, (distance, state))
             except Exception as e:
-                print('Failed to publish MQTT message:', e)
-                print('Attempting to reconnect to MQTT Broker...')
-                mqtt_client = mqtt_connect()
-                if not mqtt_client:
-                    print('Reconnection failed. Retrying in 5 seconds...')
-                    await asyncio.sleep(5)
-                else:
-                    print('Reconnected to MQTT Broker.')
+                print('Unexpected error during MQTT publish:', e)
+                queue.insert(0, (distance, state))
 
         await asyncio.sleep(0.1)
 
 async def main():
     connect_wifi()
 
-    mqtt_client = mqtt_connect()
-    if not mqtt_client:
-        print('Exiting due to MQTT connection failure.')
-        return
+    mqtt_manager = MQTTClientManager(MQTT_CLIENT_ID, MQTT_BROKER, MQTT_PORT, MQTT_TOPIC)
+    mqtt_manager.connect()
+
+    mqtt_reconnect_task = asyncio.create_task(mqtt_manager.ensure_connection())
 
     queue = []
     ljos_task = [None]
 
     skynjari_task = asyncio.create_task(sensor_loop(queue))
 
-    control_publish_task = asyncio.create_task(control_and_publish(queue, mqtt_client, ljos_task))
+    control_publish_task = asyncio.create_task(control_and_publish(queue, mqtt_manager, ljos_task))
 
     try:
-        await asyncio.gather(skynjari_task, control_publish_task)
+        await asyncio.gather(skynjari_task, control_publish_task, mqtt_reconnect_task)
     except asyncio.CancelledError:
         print("Program interrupted.")
         if ljos_task[0]:
             ljos_task[0].cancel()
-            await ljos_task[0]
+            try:
+                await ljos_task[0]
+            except asyncio.CancelledError:
+                pass
         skynjari_task.cancel()
         control_publish_task.cancel()
-        await asyncio.gather(skynjari_task, control_publish_task, return_exceptions=True)
+        mqtt_reconnect_task.cancel()
+        await asyncio.gather(skynjari_task, control_publish_task, mqtt_reconnect_task, return_exceptions=True)
 
 if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        print("Program stopped.")
+        print("\nProgram stopped.")
