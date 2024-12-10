@@ -114,16 +114,23 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 ---
 ## Item list
 
-| Date            | Item                               | Quantity |
-|------------------|------------------------------------|----------|
-| **Wed. 20. Nov** | MG996R (Servo motors)             | 2        |
-| **Fri. 22. Nov** | 3D Printed Gift Box               | 1        |
-|                  | LED (Neopixel) Strip              | 2        |
-|                  | Raspberry Pi 3                    | 1        |
-|                  | Breadboard                        | 1        |
-|                  | Battery Module                    | 1        |
-| **Wed. 27. Nov** | HW-208 (Stepdown voltage regulator)| 1        |
-|                  | HC-SR04 (Sonar distance sensor)   | 1        |
+> These are all the items we added to the robot for out build.
+
+| Date            | Item                                   | Quantity |
+|------------------|----------------------------------------|----------|
+| **Wed. 20. Nov** | MG996R (Servo motors)                 | 2        |
+| **Fri. 22. Nov** | 3D Printed Gift Box                   | 1        |
+|                  | LED (Neopixel) Strip                  | 2        |
+|                  | Raspberry Pi 3                        | 1        |
+|                  | Breadboard                            | 1        |
+|                  | Battery Module                        | 1        |
+| **Wed. 27. Nov** | HW-208 (Stepdown voltage regulator)    | 1        |
+|                  | HC-SR04 (Sonar distance sensor)       | 1        |
+| **Fri. 29. Nov** | Santa Claus Bread                     | 1        |
+|                  | Santa Claus Hat                       | 1        |
+|                  | Santa Claus Glasses                   | 1        |
+| **Wed. 11. Dec** | 3D Printed Handbell                   | 1        |
+
 
 
 
