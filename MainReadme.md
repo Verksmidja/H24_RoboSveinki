@@ -60,7 +60,7 @@ A sonar sensor was successfully tested to detect conditions as true or false. A 
 
 On the second day, we received our 3D-printed gift box to hold our prop components. We started using the Raspberry Pi wiped the SD storage and formatted it with the correct OS for it to run we were not able to get it to connect that day to a computer sadly but we'd get a lot of work done getting the robot hands to move up and down that day.
 
-<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155406.jpg" alt="GitHub Logo" width="400">
+<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155406.jpg" alt="GitHub Logo" width="300">
 # ____________________________________________________________________________
 ### (Wed/27/Nov).
 
