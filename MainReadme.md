@@ -1,10 +1,8 @@
 # RoboSveinki🎅
 
 VESM:3 Lokaverkefni.  
+<sub> Date started wed.20.Nov2024 </sub>
 
-<p><small> Date started wed.20.Nov2024 </small></p>
-
----
 ### Names:  
 
 
@@ -13,7 +11,8 @@ Gabriel Óðinn Schurack.
 Sverrir Haukur Aðalsteinsson.  
 
 ---
-### Summary list.
+
+### Summary list.📘
 
 > Just click on the Summary you want to got to.
 
@@ -23,6 +22,11 @@ Sverrir Haukur Aðalsteinsson.
 - [Photos](#photos)
 
 ---
+
+## About the Project
+
+We made a robot Santa Claus that 
+
   
 
 
