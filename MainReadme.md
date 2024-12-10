@@ -150,6 +150,19 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 
 <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif" alt="GitHub Logo" width="400"> 
 
+---
+
+##Links
+
+### We will add more tomorrow
+
+---
+## Codes
+
+### We will add more tomorrow 
+
+---
+
 
 
 
