@@ -36,7 +36,7 @@ We made a robot Santa Claus that will sing and play music and ring the bell when
 
 - [Wed/20/Nov](#wed/20/nov)
 - [Fri/22/Nov](#fri/22/nov)
-- [Wed/27/Nov](wed/27/nov)
+- [Wed/27/Nov](#wed/27/nov)
 - [Fri/29/Nov](#fri/29/nov)
 - [Wed/4/Dec](#wed/4/dec)
 - [Fri/6/Dec](#fri/6/dec)
