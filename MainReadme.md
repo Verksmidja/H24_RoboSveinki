@@ -131,8 +131,10 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 |                  | Santa Claus Glasses                   | 1        |
 | **Wed. 11. Dec** | 3D Printed Handbell                   | 1        |
 
+---
+## Photos
 
-
+<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155406.jpg" alt="GitHub Logo" width="300"> .... <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155359.jpg" alt="GitHub Logo" width="300"> .... <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241206_141856_2_1.gif" alt="GitHub Logo" width="300">
 
 
 
