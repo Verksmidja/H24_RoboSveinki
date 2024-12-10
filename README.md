@@ -21,7 +21,7 @@ We are making a robot that lights in the box light up when the box is open and t
 - [x] Get the LED lights to turn-on, on the robot.
 - [x] Get the codes to run Async to each other on the gift.
 - [x] Get the mouth to move async with the music.
-- [ ] Get the gift code to start the robot.
+- [x] Get the gift code to start the robot.
 - [x] Run an MQTT Server on the Raspberry Pi.
 - [x] Get the Raspberry Pi and My computer to start sending info and working with the NodeRED Dashboard.(still needs some work)
 - [ ] Dress the figure up.
