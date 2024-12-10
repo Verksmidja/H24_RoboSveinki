@@ -73,7 +73,9 @@ We got the LED strips to work and light up with a little jingle Red and Green an
 # ____________________________________________________________________________
 ### (Fri/29/Nov)
 
-On the fourth day, we were able to find a 3D model of a handbell we could print out for our second prop that wasn't gonna do anything (maybe light up that was one of our plans if we had extra time)
+On the fourth day, we were able to find a 3D model of a handbell we could print out for our second prop that wasn't gonna do anything (maybe light up that was one of our plans if we had extra time).
+We got done setting up the MQTT server an the node-RED on the raspberry Pi computer.
+
 
 
 
