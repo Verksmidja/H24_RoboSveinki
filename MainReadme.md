@@ -70,8 +70,8 @@ On the third day, we were able to get the Raspberry Pi to connect to the compute
 We soldered the LED strips and wired them to the ESP Arduino, which all was gonna go into the box. We fastened the hand to the robot.  
 
 We got the LED strips to work and light up with a little jingle Red and Green animation when you open the box.
-https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif
-<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif" alt="GitHub Logo" width="300">
+
+<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif" alt="GitHub Logo" width="350">
 # ____________________________________________________________________________
 ### (Fri/29/Nov)
 
