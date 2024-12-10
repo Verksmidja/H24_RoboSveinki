@@ -77,7 +77,7 @@ We got the LED strips to work and light up with a little jingle Red and Green an
 ### (Fri/29/Nov)
 
 On the fourth day, we were able to find a 3D model of a handbell we could print out for our second prop that wasn't gonna do anything (maybe light up that was one of our plans if we had extra time).
-We got done setting up the MQTT server an the node-RED on the raspberry Pi computer.
+We got done setting up the MQTT server an the node-RED on the Raspberry Pi computer. and we where able to communicate with the gift from the Red node dashboard getting the True and the False values it was transmitting thru the MQTT server that was running on the Raspberry Pi computer.
 
 
 
