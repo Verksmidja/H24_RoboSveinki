@@ -34,12 +34,12 @@ We made a robot Santa Claus that will sing and play music and ring the bell when
 
 > Click on the Date you want to go to.
 
-- [Wed/20/Nov](#wed/20/nov)
-- [Fri/22/Nov](#fri/22/nov)
-- [Wed/27/Nov](#wed/27/nov)
-- [Fri/29/Nov](#fri/29/nov)
-- [Wed/4/Dec](#wed/4/dec)
-- [Fri/6/Dec](#fri/6/dec)
+- [Wed/20/Nov](#wed20nov)
+- [Fri/22/Nov](#fri22nov)
+- [Wed/27/Nov](#wed27nov)
+- [Fri/29/Nov](#fri29nov)
+- [Wed/4/Dec](#wed4dec)
+- [Fri/6/Dec](#fri6dec)
 
 ---
 
