@@ -18,7 +18,7 @@ Sverrir Haukur Aðalsteinsson.
 
 - [Dialog date list](#dialog-date-list)
 - [Item list](#item-list)
-- [Price list](#price-listi)
+- [Price list](#price-list)
 - [Photos](#photos)
 - [Codes](#codes)
 
@@ -130,6 +130,15 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 |                  | Santa Claus Hat                       | 1        |
 |                  | Santa Claus Glasses                   | 1        |
 | **Wed. 11. Dec** | 3D Printed Handbell                   | 1        |
+# ____________________________________________________________________________
+## Price list
+
+| Item                   | Price (ISK) |
+|-------------------------|-------------|
+| Santa Claus Beard       | 2,990       |
+| Santa Claus Hat         | 990         |
+| Santa Claus Glasses     | 990         |
+| **Total**               | **4,970**   |
 
 ---
 ## Photos
