@@ -52,9 +52,6 @@ Work began with searching for a 3D model of a gift box to print. At the same tim
 
 A sonar sensor was successfully tested to detect conditions as true or false. A suitable 3D model for the gift box was found and sent for 3D printing.
 
-___
-
-
 ### (Fri/22/Nov).
 
 On the second day, we received our 3D-printed gift box to hold our prop components. We started using the Raspberry Pi wiped the SD storage and formatted it with the correct OS for it to run we were not able to get it to connect that day to a computer sadly but we'd get a lot of work done getting the robot hands to move up and down that day.
