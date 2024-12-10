@@ -113,7 +113,7 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 
 
 ---
-## Item list
+## Item list📋
 
 > These are all the items we added to the robot for out build.
 
@@ -134,7 +134,7 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 # ____________________________________________________________________________
 
 
-## Price list
+## Price list📝
 
 >This is the price of the items we used for our project.
 
@@ -146,7 +146,7 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 | **Total**               | **4,970**   |
 
 ---
-## Photos
+## Photos📷
 
 > These are all the photos and gifs that were created (for now).
 
