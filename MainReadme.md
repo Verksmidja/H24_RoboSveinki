@@ -43,7 +43,20 @@ We made a robot Santa Claus that will sing and play music and ring the bell when
 
 ---
 
-### (Wed/20/Nov)
+### (Wed/20/Nov).  
+
+
+On the first day of the project, we decided to create a robot dressed as Santa Claus that would sing Christmas music when a specific action was performed. We considered two options for triggering the music: either placing a bell in the robot's hands or opening a gift. In the end, we chose to trigger the music when a gift is opened.
+
+Gabriel began working on finding a 3D model of a gift box that we could print. While Gabriel was searching for the model, Daníel inspected the robot we were given to understand its wiring setup and started attaching hands to it. Meanwhile, Sverrir set up a GitHub repository to keep us organized and manage our work efficiently.
+
+Gabriel successfully got a sonar sensor working, detecting conditions as true or false. We also found a suitable 3D model for the gift box and sent it for 3D printing.
+
+
+### (Fri/22/Nov).
+
+
+
 
 
 
