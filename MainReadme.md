@@ -112,7 +112,7 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 
 
 ---
-##Item list
+## Item list
 
 | Date            | Item                               | Quantity |
 |------------------|------------------------------------|----------|
