@@ -41,6 +41,7 @@ We made a robot Santa Claus that will sing and play music and ring the bell when
 - [Fri/29/Nov](#fri29nov)
 - [Wed/4/Dec](#wed4dec)
 - [Fri/6/Dec](#fri6dec)
+- [Wed/11/Dec](#wed11dec)
 
 ---
 ## Dialogs📆
@@ -92,8 +93,12 @@ Also, we refined the gift box and stuffed it all in there and made it all neet a
 Most of that day took trying to fix the robot.
 
 # ____________________________________________________________________________
+### (Fri/6/Dec)
 
+On the Sixthed day. We got the MQTT setup on the robotics code and it started when we opened the gift we were basically finished we needed only the API and the dashboard and we needed to dress up the bot.
 
+# ____________________________________________________________________________
+### (Wed/11/Dec)
 
 
 
