@@ -72,6 +72,7 @@ We soldered the LED strips and wired them to the ESP Arduino, which all was gonn
 We got the LED strips to work and light up with a little jingle Red and Green animation when you open the box.
 
 <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif" alt="GitHub Logo" width="350">
+
 # ____________________________________________________________________________
 ### (Fri/29/Nov)
 
