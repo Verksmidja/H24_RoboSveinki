@@ -52,6 +52,8 @@ Work began with searching for a 3D model of a gift box to print. At the same tim
 
 A sonar sensor was successfully tested to detect conditions as true or false. A suitable 3D model for the gift box was found and sent for 3D printing.
 
+___
+
 
 ### (Fri/22/Nov).
 
