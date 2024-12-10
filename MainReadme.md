@@ -111,6 +111,29 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 
 
 
+---
+##Item list
+
+| Date            | Item                               | Quantity |
+|------------------|------------------------------------|----------|
+| **Wed. 20. Nov** | MG996R (Servo motors)             | 2        |
+| **Fri. 22. Nov** | 3D Printed Gift Box               | 1        |
+|                  | LED (Neopixel) Strip              | 2        |
+|                  | Raspberry Pi 3                    | 1        |
+|                  | Breadboard                        | 1        |
+|                  | Battery Module                    | 1        |
+| **Wed. 27. Nov** | HW-208 (Stepdown voltage regulator)| 1        |
+|                  | HC-SR04 (Sonar distance sensor)   | 1        |
+
+
+
+
+
+
+
+
+
+
 
 
 
