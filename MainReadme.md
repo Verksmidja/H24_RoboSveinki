@@ -82,7 +82,7 @@ We got done setting up the MQTT server and the Node-RED on the Raspberry Pi comp
 Also, we ultimately decided to remove the Volume db controller. And we went to the store to buy props to dress up the robot.
 
 # ____________________________________________________________________________
-### (Wed/4/Des)
+### (Wed/4/Dec)
 
 On the fifth day. We are able to send true statements from the dashboard and get true statements from the git and get them displayed on the Nodered dashboard.
 With that, we were also able to fix the robot and now it Asycos the mouth with the music that's playing, and with that, the head and the arms move also when the music played.
