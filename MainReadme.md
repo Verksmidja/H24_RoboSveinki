@@ -77,9 +77,22 @@ We got the LED strips to work and light up with a little jingle Red and Green an
 ### (Fri/29/Nov)
 
 On the fourth day, we were able to find a 3D model of a handbell we could print out for our second prop that wasn't gonna do anything (maybe light up that was one of our plans if we had extra time).
-We got done setting up the MQTT server and the Node-RED on the Raspberry Pi computer. and we were able to communicate with the gift from the Red node dashboard getting the True and the False values it was transmitting thru the MQTT server that was running on the Raspberry Pi computer.
+We got done setting up the MQTT server and the Node-RED on the Raspberry Pi computer. and we were able to communicate with the gift from the Red node dashboard getting the True and the False values it was transmitting through the MQTT server that was running on the Raspberry Pi computer.
 
 Also, we ultimately decided to remove the Volume db controller. And we went to the store to buy props to dress up the robot.
+
+# ____________________________________________________________________________
+### (Wed/4/Des)
+
+On the fifth day. We are able to send true statements from the dashboard and get true statements from the git and get them displayed on the Nodered dashboard.
+With that, we were also able to fix the robot and now it Asycos the mouth with the music that's playing, and with that, the head and the arms move also when the music played.
+
+Also, we refined the gift box and stuffed it all in there and made it all neet and tightly
+
+Most of that day took trying to fix the robot.
+
+
+
 
 
 
