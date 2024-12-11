@@ -172,7 +172,7 @@ Pétur laggaði allan kóða
 ---
 ## Codes
 
-### We will add more tomorrow 
+[Robot code](https://github.com/Gazzo00o/RoboSveinki/tree/main/CODES/ESP%201)
 
 ---
 
