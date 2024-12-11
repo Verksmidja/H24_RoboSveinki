@@ -106,11 +106,13 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 # ____________________________________________________________________________
 ### (Wed/11/Dec)
 
-#### More added tomorrow!!!
-Pétur laggaði allan kóða 
+We wherent able to finish all the code and didnt do much progress but we dressed it up and it sang
 
 
 
+Pétur laggaði allan kóða 👍
+
+<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241211_162640.jpg" alt="GitHub Logo" width="300">
 
 
 ---
@@ -153,7 +155,7 @@ Pétur laggaði allan kóða
 
 <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155406.jpg" alt="GitHub Logo" width="300"> .... <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155359.jpg" alt="GitHub Logo" width="300"> .... <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241206_141856_2_1.gif" alt="GitHub Logo" width="225">
 
-<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif" alt="GitHub Logo" width="400"> 
+<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif" alt="GitHub Logo" width="400"> <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241211_162640.jpg" alt="GitHub Logo" width="300">
 
 ---
 ## Diagrams
