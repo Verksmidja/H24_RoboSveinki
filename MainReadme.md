@@ -100,8 +100,8 @@ Most of that day took trying to fix the robot.
 On the Sixthed day. We got the MQTT setup on the robotics code and it started when we opened the gift we were basically finished we needed only the API and the dashboard and we needed to dress up the bot.
 > Video of the robot working.
 https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
-
-
+> Download video
+[Download link](https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241206_141856.mp4)
 # ____________________________________________________________________________
 ### (Wed/11/Dec)
 
