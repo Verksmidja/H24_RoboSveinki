@@ -160,7 +160,6 @@ Pétur laggaði allan kóða 👍
 ---
 ## Diagrams
 > This is the layout how the bot works on communication
-> https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/test%202.drawio.svg
 
 
 <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/Item-digram.svg" alt="GitHub Logo" width="300"> <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/test%202.drawio.svg" alt="GitHub Logo" width="300"> 
