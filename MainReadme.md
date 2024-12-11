@@ -174,7 +174,10 @@ Pétur laggaði allan kóða 👍
 ---
 ## Codes
 
+>These are the codes that we made
+
 [Robot code](https://github.com/Gazzo00o/RoboSveinki/tree/main/CODES/ESP%201)
+[Gift Box code](https://github.com/Gazzo00o/RoboSveinki/tree/main/CODES/ESP%202)
 
 ---
 
