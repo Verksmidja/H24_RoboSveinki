@@ -20,6 +20,7 @@ Sverrir Haukur Aðalsteinsson.
 - [Item list](#item-list)
 - [Price list](#price-list)
 - [Photos](#photos)
+- [Diagrams](#Diagram)
 - [Links](#links)
 - [Codes](#codes)
 
@@ -153,6 +154,13 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155406.jpg" alt="GitHub Logo" width="300"> .... <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_155359.jpg" alt="GitHub Logo" width="300"> .... <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241206_141856_2_1.gif" alt="GitHub Logo" width="225">
 
 <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241127_154815_1.gif" alt="GitHub Logo" width="400"> 
+
+---
+## Diagrams
+> This is the layout how the bot works on communication
+
+
+<img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/Item-digram.svg" alt="GitHub Logo" width="300"> 
 
 ---
 
