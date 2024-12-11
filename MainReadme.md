@@ -20,7 +20,7 @@ Sverrir Haukur Aðalsteinsson.
 - [Item list](#item-list)
 - [Price list](#price-list)
 - [Photos](#photos)
-- [Diagrams](#Diagram)
+- [Diagrams](#Diagrams)
 - [Links](#links)
 - [Codes](#codes)
 
