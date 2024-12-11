@@ -107,7 +107,7 @@ https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
 ### (Wed/11/Dec)
 
 #### More added tomorrow!!!
-
+Pétur laggaði allan kóða 
 
 
 
