@@ -130,7 +130,8 @@ def mqtt_callback(topic, msg):
             pwm_green.duty_u16(0)
             pwm_blue.duty_u16(0)
             asyncio.create_task(df.pause())
-    except (ValueError, UnicodeDecodeError) as e:
+    except (ValueError, Exception) as e:
+
         print("Received invalid JSON")
         print(f"Error: {e}")
         print(f"Raw message: {msg}")
