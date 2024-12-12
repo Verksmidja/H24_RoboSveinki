@@ -139,17 +139,6 @@ Pétur lagaði allan kóða 👍
 # ____________________________________________________________________________
 
 
-## Price list📝
-
->This is the price of the items we used for our project.
-
-| Item                   | Price (ISK) |
-|-------------------------|-------------|
-| Santa Claus Beard       | 2,990       |
-| Santa Claus Hat         | 990         |
-| Santa Claus Glasses     | 990         |
-| **Total**               | **4,970**   |
-
 ---
 ## Photos📷
 
