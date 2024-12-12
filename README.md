@@ -117,6 +117,7 @@ Pétur lagaði allan kóða 👍
 
 
 ---
+
 ## Item list📋
 
 > These are all the items we added to the robot for out build.
