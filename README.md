@@ -24,13 +24,12 @@ We are making a robot that lights in the box light up when the box is open and t
 - [x] Get the gift code to start the robot.
 - [x] Run an MQTT Server on the Raspberry Pi.
 - [x] Get the Raspberry Pi and My computer to start sending info and working with the NodeRED Dashboard.(still needs some work)
-- [ ] Dress the figure up.
+- [x] Dress the figure up.
 - [x] Find a bell to 3D print.
 - [x] Print The bell.
-- [ ] Add LED Light Strip to the bell and make the do the same as on the Gift LED.
 - [x] Go buy the stuff for it.
-- [ ] Get a API to work with the time.
-### Task completed 14/20 (for now)
+- [x] Get a API to work with the time.
+### Task completed 18/19 (for now)
 ---
 
 ## Verkþættir sem þarf að uppfylla:📌
@@ -44,7 +43,7 @@ We are making a robot that lights in the box light up when the box is open and t
 - [x] IoT Protocol: MQTT. 
 - [x] JSON fyrir gögn.
 - [ ] NodeRed mælaborð fyrir notendastýringu, stillingar og birtingu gagna. 
-- [ ] Vefþjónusta.
+- [x] Vefþjónusta.
 - [x] Samsettning á IoT búnaði (innfelld kerfi, vélbúnaður, íhlutir, brauðbretti, vírar osfrv.).
 - [x] Smíði IoT frumgerðar á fígúru og leikmun (2D laserskurður, 3D prentun, veróborðsmíði, lóðun, samsettning, klæðnaður og útlit).
 - [x] Skýrsla á Github (readme.md).
