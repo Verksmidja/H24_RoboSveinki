@@ -109,7 +109,7 @@ We wherent able to finish all the code and didnt do much progress but we dressed
 
 
 
-Pétur laggaði allan kóða 👍
+Pétur lagaði allan kóða 👍
 
 <img src="https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241211_162640.jpg" alt="GitHub Logo" width="300">
 
