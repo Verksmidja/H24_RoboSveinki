@@ -1,17 +1,21 @@
 # RoboSveinki🎅
 VESM3 Lokaverkefni.
 
-We are making a robot that lights in the box light up when the box is open and the robots start dancing, singing, and ringing the bell Christmas music.
-> Video of the robot working.
-https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
-> Download video
-[Download link](https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241206_141856.mp4)
-
 ### Names:  
 
 Daníel Aron Blanck Guðjónsson.  
 Gabriel Óðinn Schurack.  
 Sverrir Haukur Aðalsteinsson.  
+
+## About the Project.
+
+We made a robot Santa Claus that will sing and play music and ring the bell when you open the gift. it can be turned on by opening the gift or enabling it in the Red-Node dashboard and there is a time API that will turn on the Santa robot at a specific time or date. Daníel made the code for the Santa robot to move and sing and attached the hands. Gabriel made the gift that activates the Santa robot when it's opened and it will light up inside the gift box when you open it. Sverrir configured the Rasberry Pi to run the MQTT server and set up the dashboard to control the robot, and is managing the GitHub page to keep everyone on track and writing the Readme file.
+
+> Video of the robot working.
+https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
+> Download video
+[Download link](https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241206_141856.mp4)
+
 
 ---
 
@@ -29,12 +33,6 @@ Sverrir Haukur Aðalsteinsson.
 
 ---
 
-## About the Project.
-
-We made a robot Santa Claus that will sing and play music and ring the bell when you open the gift. it can be turned on by opening the gift or enabling it in the Red-Node dashboard and there is a time API that will turn on the Santa robot at a specific time or date. Daníel made the code for the Santa robot to move and sing and attached the hands. Gabriel made the gift that activates the Santa robot when it's opened and it will light up inside the gift box when you open it. Sverrir configured the Rasberry Pi to run the MQTT server and set up the dashboard to control the robot, and is managing the GitHub page to keep everyone on track and writing the Readme file.
-
-
----
 
 ## Dialog date list
 
