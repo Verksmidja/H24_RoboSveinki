@@ -2,6 +2,10 @@
 VESM3 Lokaverkefni.
 
 We are making a robot that lights in the box light up when the box is open and the robots start dancing, singing, and ringing the bell Christmas music.
+> Video of the robot working.
+https://photos.app.goo.gl/nGRxHMFyuemYbyLf8
+> Download video
+[Download link](https://github.com/Gazzo00o/RoboSveinki/blob/main/FILES/20241206_141856.mp4)
 
 ### Names:  
 
